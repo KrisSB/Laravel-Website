@@ -4,5 +4,6 @@ This website was my first time using laravel. It focused heavily on a wiki - esq
 
 Skills Used
 - Laravel
+ - Laravel Gates and Policies
 - Node.js
 - PHP
