@@ -12,21 +12,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="/VideoGames">VideoGames</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hearthstone
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="<?php echo URL::to('/') ?>/Hearthstone">General</a>
-                    <a class="dropdown-item" href="#">Decks</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <a class="dropdown-item" href="<?php echo URL::to('/') ?>/Hearthstone/Deckbuilder">Deck Builder</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/Forums">Forums</a>
-            </li>
         </ul>
     
     <!-- Right Side Of Navbar -->
