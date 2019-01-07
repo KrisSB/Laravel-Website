@@ -33,6 +33,6 @@ Route::post('/VideoGames/{id}/Wiki/{wiki}/Section/{post_id}','WikiPostsControlle
 
 Auth::routes();
 
-Route::get('/Dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('/Dashboard', 'DashboardController@index');
 
 Route::resource('Forum', 'ForumsController');
